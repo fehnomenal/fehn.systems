@@ -1,0 +1,34 @@
+{
+    "[vue]": {
+      "editor.defaultFormatter": "Vue.volar"
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.fontSize": 15,
+    "editor.formatOnSave": false,
+    "editor.linkedEditing": true,
+    "editor.rulers": [120],
+    "files.associations": {
+      "*.css": "tailwindcss"
+    },
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "javascript.preferences.renameMatchingJsxTags": true,
+    "npm.packageManager": "pnpm",
+    "search.exclude": {
+      "**/.output": true,
+      "**/.pnp.*": true,
+      "**/dist": true,
+      "node_modules": true,
+      "pnpm-lock.yaml": true
+    },
+    "search.useIgnoreFiles": false,
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.preferences.renameMatchingJsxTags": true,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "window.zoomLevel": 0.05
+  }
+  
