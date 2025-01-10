@@ -1,4 +1,8 @@
 <template>
+  <MiscSectionWrapper is-small-height>
+    <Header />
+  </MiscSectionWrapper>
+
   <MiscSectionWrapper>
     <Bio />
   </MiscSectionWrapper>
