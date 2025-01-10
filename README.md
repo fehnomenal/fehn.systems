@@ -1,75 +1,24 @@
-# Nuxt Minimal Starter
+# fehn.systems
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Andreas' portfolio website <3
 
-## Setup
+## Prod
 
-Make sure to install dependencies:
+[https://fehn.systems/](https://fehn.systems/)
 
-```bash
-# npm
-npm install
+## Dev
 
-# pnpm
-pnpm install
+See [package.json](./package.json) for full script command list :)
 
-# yarn
-yarn install
+## Project Contributors
 
-# bun
-bun install
-```
+- [Andreas Fehn](https://github.com/fehnomenal)
+- [Thorsten Seyschab](https://todde.tv)
 
-## Development Server
+## License
 
-Start the development server on `http://localhost:3000`:
+This project is licensed under the MIT License. You are free to use, modify, and distribute the code as specified in the [LICENSE](./LICENSE) file.
 
-```bash
-# npm
-npm run dev
+However, all images, text content, and other non-code assets in this repository are **copyrighted** and remain the exclusive property of the repository author. These assets may not be reproduced, distributed, or used without explicit permission from the author.
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+If you have any questions regarding the licensing of the assets, please contact the repository author.
