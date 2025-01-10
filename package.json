@@ -2,6 +2,7 @@
   "name": "fehn.systems",
   "type": "module",
   "private": true,
+  "packageManager": "pnpm@10.0.0",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
