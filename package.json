@@ -8,7 +8,9 @@
     "dev:network": "$npm_execpath dev --host",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "$npm_execpath lint --fix"
   },
   "dependencies": {
     "@nuxt/eslint": "^0.7.5",
