@@ -1,7 +1,7 @@
 {
   "name": "fehn.systems",
-  "private": true,
   "type": "module",
+  "private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -13,13 +13,13 @@
     "lint:fix": "$npm_execpath lint --fix"
   },
   "dependencies": {
-    "@nuxt/eslint": "^0.7.5",
-    "eslint": "^8.57.0 || ^9.0.0",
     "nuxt": "^3.15.1",
-    "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "vue": "^3.5.13"
   },
   "devDependencies": {
-    "typescript": "^5.7.3"
+    "@antfu/eslint-config": "^3.13.0",
+    "eslint": "^9.17.0",
+    "typescript": "^5.7.3",
+    "vue-router": "^4.5.0"
   }
 }
