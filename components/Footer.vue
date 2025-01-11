@@ -14,8 +14,16 @@
     </div>
 
     <div class="flex flex-row gap-5">
-      <p><a class="underline transition-colors hover:text-black" href="/privacy">Privacy</a></p>
-      <p><a class="underline transition-colors hover:text-black" href="/impress">Impress</a></p>
+      <p>
+        <NuxtLink class="underline transition-colors hover:text-black" to="/privacy">
+          Privacy
+        </NuxtLink>
+      </p>
+      <p>
+        <NuxtLink class="underline transition-colors hover:text-black" to="/impress">
+          Impress
+        </NuxtLink>
+      </p>
     </div>
   </div>
 </template>

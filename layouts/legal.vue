@@ -1,4 +1,7 @@
 <template>
-  Layout: legal
-  <slot />
+  <NuxtLayout name="default">
+    <div class="myContainer">
+      <slot />
+    </div>
+  </NuxtLayout>
 </template>

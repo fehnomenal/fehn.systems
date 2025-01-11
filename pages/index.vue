@@ -5,10 +5,6 @@ useHead({
 </script>
 
 <template>
-  <MiscSectionWrapper is-small-height>
-    <Header />
-  </MiscSectionWrapper>
-
   <MiscSectionWrapper>
     <BioMain />
   </MiscSectionWrapper>
@@ -19,9 +15,5 @@ useHead({
 
   <MiscSectionWrapper>
     <Projects />
-  </MiscSectionWrapper>
-
-  <MiscSectionWrapper is-small-height>
-    <Footer />
   </MiscSectionWrapper>
 </template>
