@@ -4,7 +4,7 @@
     <p>I'm Andreas</p>
   </div>
 
-  <div class="flex flex-row justify-evenly md:justify-start md:gap-10 text-lg">
+  <div class="flex flex-row justify-evenly md:justify-start md:gap-10 text-lg text-gray-600">
     <p>Freelancer</p>
     <p>Full-stack developer</p>
   </div>
