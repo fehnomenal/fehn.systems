@@ -19,6 +19,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.13.0",
+    "@iconify-json/mdi": "^1.2.2",
+    "@nuxt/icon": "^1.10.3",
     "@nuxt/image": "^1.9.0",
     "@nuxtjs/tailwindcss": "^6.12.2",
     "@vue-final-modal/nuxt": "^1.0.3",
@@ -28,6 +30,8 @@
     "vue-router": "^4.5.0"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["sharp"]
+    "onlyBuiltDependencies": [
+      "sharp"
+    ]
   }
 }

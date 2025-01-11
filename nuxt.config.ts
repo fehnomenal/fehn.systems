@@ -6,7 +6,16 @@ export default defineNuxtConfig({
     enabled: true,
   },
 
-  modules: ['@nuxt/image', '@nuxtjs/tailwindcss', '@vue-final-modal/nuxt'],
+  modules: [
+    '@nuxt/icon',
+    '@nuxt/image',
+    '@nuxtjs/tailwindcss',
+    '@vue-final-modal/nuxt',
+  ],
+
+  icon: {
+    clientBundle: { scan: true },
+  },
 
   ssr: false,
 })

@@ -8,7 +8,7 @@
   </MiscSectionWrapper>
 
   <MiscSectionWrapper>
-    <Socials />
+    <SocialsMain />
   </MiscSectionWrapper>
 
   <MiscSectionWrapper>
