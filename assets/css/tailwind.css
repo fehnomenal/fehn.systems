@@ -3,4 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+    .myContainer {
+        @apply container mx-auto px-3 md:px-10;
+    }
 }
