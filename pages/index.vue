@@ -1,3 +1,9 @@
+<script setup lang="ts">
+useHead({
+  title: 'Andreas Fehn',
+})
+</script>
+
 <template>
   <MiscSectionWrapper is-small-height>
     <Header />

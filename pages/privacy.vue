@@ -2,6 +2,10 @@
 definePageMeta({
   layout: 'legal',
 })
+
+useHead({
+  title: 'Privacy | Andreas Fehn',
+})
 </script>
 
 <template>

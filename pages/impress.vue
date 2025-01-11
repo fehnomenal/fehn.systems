@@ -2,6 +2,10 @@
 definePageMeta({
   layout: 'legal',
 })
+
+useHead({
+  title: 'Impress | Andreas Fehn',
+})
 </script>
 
 <template>
