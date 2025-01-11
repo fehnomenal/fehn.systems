@@ -28,7 +28,7 @@ const typeToContent: typeToContentType = {
   <span
     class="inline-block px-2 py-0.5 rounded-full text-xs/4 font-semibold text-gray-900 bg-gray-300"
   >
-    {{ typeToContent[type].text }}
+    {{ typeToContent[type]?.text ?? type }}
   </span>
 </template>
 

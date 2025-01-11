@@ -45,7 +45,7 @@ function openModal(component: DefineComponent) {
           <time :datetime="project.datetime" class="mr-8">{{ project.dateFormatted }}</time>
         </div>
 
-        <div class="flex flex-row gap-2 mt-1">
+        <div class="flex flex-row flex-wrap gap-2 mt-1">
           <MiscBadge
             v-for="badge in project.badges"
             :key="badge"
