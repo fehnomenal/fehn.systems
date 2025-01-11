@@ -30,7 +30,6 @@
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "typescript.preferences.renameMatchingJsxTags": true,
   "typescript.tsdk": "node_modules/typescript/lib",
-  "window.zoomLevel": 0.05,
   "eslint.rules.customizations": [
     { "rule": "style/*", "severity": "off", "fixable": true },
     { "rule": "format/*", "severity": "off", "fixable": true },

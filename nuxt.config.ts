@@ -6,5 +6,7 @@ export default defineNuxtConfig({
     enabled: true,
   },
 
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', '@vue-final-modal/nuxt'],
+
+  ssr: false,
 })
