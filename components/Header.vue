@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-grow flex flex-row justify-around items-center">
+  <div class="myContainer flex-grow flex flex-row justify-around items-center">
     <p>
       <NavLink href="#bio" text="About me" />
     </p>
