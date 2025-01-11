@@ -5,7 +5,7 @@ const { isSmallHeight = false } = defineProps<{
 </script>
 
 <template>
-  <div class="snap-center snap-always" :class="[isSmallHeight ? 'h-[5dvh]' : 'h-[90dvh]']">
+  <div :class="[isSmallHeight ? 'min-h-[5dvh]' : 'min-h-[90dvh]']">
     <slot />
   </div>
 </template>
