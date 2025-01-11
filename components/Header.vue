@@ -1,7 +1,13 @@
 <template>
   <div class="container h-full mx-auto flex flex-row justify-around items-center">
-    <p><a href="#bio">About me</a></p>
-    <p><a href="#socials">Socials</a></p>
-    <p><a href="#projects">Projects</a></p>
+    <p>
+      <NavLink href="#bio" text="About me" />
+    </p>
+    <p>
+      <NavLink href="#socials" text="Socials" />
+    </p>
+    <p>
+      <NavLink href="#projects" text="Projects" />
+    </p>
   </div>
 </template>
