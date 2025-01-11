@@ -2,13 +2,15 @@ import type { BadgeType } from '~/components/misc/Badge.vue'
 import EasyData from '~/components/project/EasyData.vue'
 import Zlig from '~/components/project/Zlig.vue'
 
+export type ProjectName = 'easy-data' | 'zlig'
+
 export interface Project {
-  title: string
+  title: ProjectName
   badges: BadgeType[]
   imageUrl: string
   dateFormatted: string
   datetime: string
-  component?: () => any
+  component: () => any
 }
 
 export function useProjects() {

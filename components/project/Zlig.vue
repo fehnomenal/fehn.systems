@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <ProjectModal>
+  <div>
     <h1 class="text-xl">
       Zlig und so
     </h1>
@@ -15,7 +15,7 @@
     asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>
     asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>
     asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>asdasd<br>
-  </ProjectModal>
+  </div>
 </template>
 
 <style scoped></style>

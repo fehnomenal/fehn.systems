@@ -1,13 +1,19 @@
 <script setup lang="ts">
+import type { DefineComponent } from 'vue'
 import { ModalsContainer, useModal } from 'vue-final-modal'
-import Zlig from '~/components/project/Zlig.vue'
-// import ModalConfirmPlainCss from './ModalConfirmPlainCss.vue'
+import ProjectModal from '~/components/ProjectModal.vue'
 
 const { projects } = useProjects()
 
-const { open } = useModal({
-  component: Zlig,
-})
+function openModal(component: DefineComponent) {
+  const { open } = useModal({
+    attrs: {
+      project: component,
+    },
+    component: ProjectModal,
+  })
+  open()
+}
 </script>
 
 <template>
@@ -49,7 +55,7 @@ const { open } = useModal({
           </div>
 
           <h3 class="mt-3 text-lg/6 font-semibold text-white">
-            <NuxtLink class="hover:cursor-pointer" @click="() => open()">
+            <NuxtLink class="hover:cursor-pointer" @click="() => openModal(project.component())">
               <span class="absolute inset-0" />
               {{ project.title }}
             </NuxtLink>

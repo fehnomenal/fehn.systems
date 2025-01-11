@@ -2,11 +2,11 @@
 </script>
 
 <template>
-  <ProjectModal>
+  <div>
     <h1 class="text-xl">
       EasyData und so
     </h1>
-  </ProjectModal>
+  </div>
 </template>
 
 <style scoped></style>
