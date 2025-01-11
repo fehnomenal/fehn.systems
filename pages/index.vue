@@ -13,7 +13,7 @@ useHead({
     <BioMain />
   </MiscSectionWrapper>
 
-  <MiscSectionWrapper>
+  <MiscSectionWrapper class="bg-slate-200 shadow-inner">
     <SocialsMain />
   </MiscSectionWrapper>
 
