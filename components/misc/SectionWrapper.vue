@@ -5,7 +5,7 @@ const { isSmallHeight = false } = defineProps<{
 </script>
 
 <template>
-  <div :class="[isSmallHeight ? 'h-[5dvh]' : 'min-h-[90dvh]']">
+  <div class="flex flex-col content-center" :class="[isSmallHeight ? 'min-h-[5dvh]' : 'min-h-[90dvh]']">
     <slot />
   </div>
 </template>

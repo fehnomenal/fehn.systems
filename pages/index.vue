@@ -4,7 +4,7 @@
   </MiscSectionWrapper>
 
   <MiscSectionWrapper>
-    <Bio />
+    <BioMain />
   </MiscSectionWrapper>
 
   <MiscSectionWrapper>
