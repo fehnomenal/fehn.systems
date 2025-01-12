@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import type { DefineComponent } from 'vue'
+import type { Component } from 'vue'
 import { ModalsContainer, useModal } from 'vue-final-modal'
 import ProjectModal from '~/components/ProjectModal.vue'
 
 const { projects } = useProjects()
 
-function openModal(component: DefineComponent) {
+function openModal(component: Component) {
   const { open } = useModal({
     attrs: {
-      project: component,
+      projectComponent: component,
     },
     component: ProjectModal,
   })
@@ -31,9 +31,7 @@ function openModal(component: DefineComponent) {
       class="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
     >
       <article
-        v-for="project in projects"
-        :key="project.title"
-        class="relative isolate flex flex-col justify-end overflow-hidden
+        v-for="project in projects" :key="project.title" class="relative isolate flex flex-col justify-end overflow-hidden
                  rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80
                  transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-200"
       >
@@ -46,15 +44,11 @@ function openModal(component: DefineComponent) {
         </div>
 
         <div class="flex flex-row flex-wrap gap-2 mt-1">
-          <MiscBadge
-            v-for="badge in project.badges"
-            :key="badge"
-            :type="badge"
-          />
+          <MiscBadge v-for="badge in project.badges" :key="badge" :type="badge" />
         </div>
 
         <h3 class="mt-3 text-lg/6 font-semibold text-white">
-          <NuxtLink class="hover:cursor-pointer" @click="() => openModal(project.component())">
+          <NuxtLink class="hover:cursor-pointer" @click="() => openModal(project.component)">
             <span class="absolute inset-0" />
             {{ project.title }}
           </NuxtLink>
