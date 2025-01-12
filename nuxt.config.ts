@@ -1,3 +1,5 @@
+import tailwindcss from '@tailwindcss/vite'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
@@ -9,7 +11,6 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/icon',
     '@nuxt/image',
-    '@nuxtjs/tailwindcss',
     '@vue-final-modal/nuxt',
   ],
 
@@ -24,6 +25,8 @@ export default defineNuxtConfig({
     },
   },
 
+  css: ['~/assets/css/tailwind.css'],
+
   icon: {
     clientBundle: { scan: true },
   },
@@ -32,7 +35,7 @@ export default defineNuxtConfig({
     dir: 'assets/images',
   },
 
-  tailwindcss: {
-    exposeConfig: true,
+  vite: {
+    plugins: [tailwindcss()],
   },
 })

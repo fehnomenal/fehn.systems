@@ -1,5 +1,5 @@
 <template>
-  <div class="myContainer flex-grow flex flex-col md:flex-row justify-between items-center text-gray-500">
+  <div class="myContainer grow flex flex-col md:flex-row justify-between items-center text-gray-500">
     <div class="flex flex-row flex-wrap gap-x-5 gap-y-2">
       <p>&copy; {{ new Date().getFullYear() }} The authors</p>
 

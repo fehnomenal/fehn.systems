@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import type { DefineComponent } from 'vue'
-import { _2xl, _lg, _md, _xl } from '#tailwind-config/theme/screens'
 import { ModalsContainer, useModal } from 'vue-final-modal'
 import ProjectModal from '~/components/ProjectModal.vue'
 
@@ -36,7 +35,7 @@ function openModal(component: DefineComponent) {
         :key="project.title"
         class="relative isolate flex flex-col justify-end overflow-hidden
                  rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80
-                 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-200"
+                 transition ease-in-out delay-50 md:hover:-translate-y-1 md:hover:scale-110 duration-200"
       >
         <div class="absolute inset-0 -z-10">
           <MiscResponsiveImage
@@ -44,10 +43,10 @@ function openModal(component: DefineComponent) {
             img-class="size-full object-cover" :sizes="{
               '': 515,
               [`(width < 400px)`]: 375,
-              [`(width < ${_md})`]: 620,
-              [`(width < ${_lg})`]: 740,
-              [`(width < ${_xl})`]: 325,
-              [`(width < ${_2xl})`]: 420,
+              [`(width < 768px)`]: 620,
+              [`(width < 1024px)`]: 740,
+              [`(width < 1280px)`]: 325,
+              [`(width < 1536px)`]: 420,
             }"
           />
         </div>

@@ -12,6 +12,6 @@ defineProps<{
   >
     <slot />
 
-    <span class="flex-grow text-center">{{ label ?? href }}</span>
+    <span class="grow text-center">{{ label ?? href }}</span>
   </a>
 </template>
