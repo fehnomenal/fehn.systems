@@ -17,5 +17,11 @@ export default defineNuxtConfig({
     clientBundle: { scan: true },
   },
 
-  ssr: false,
+  image: {
+    dir: 'assets/images',
+  },
+
+  tailwindcss: {
+    exposeConfig: true,
+  },
 })
