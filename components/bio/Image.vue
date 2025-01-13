@@ -5,7 +5,7 @@ import { _lg, _md, _sm } from '#tailwind-config/theme/screens'
 <template>
   <div class="w-3/4 aspect-square mx-auto flex flex-col content-center justify-center">
     <MiscResponsiveImage
-      src="/me.jpg" legacy-format="jpg" alt="Profile picture of Andreas Fehn" :sizes="{
+      src="/me.png" legacy-format="jpg" alt="Profile picture of Andreas Fehn" :sizes="{
         '': 535,
         [`(width < 320px)`]: 270,
         [`(width < ${_md})`]: 465,
