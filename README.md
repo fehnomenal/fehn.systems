@@ -12,8 +12,8 @@ See [package.json](./package.json) for full script command list :)
 
 ## Project Contributors
 
-- [Andreas Fehn](https://github.com/fehnomenal)
-- [Thorsten Seyschab](https://todde.tv)
+- [Andreas Fehn](https://github.com/fehnomenal) (author)
+- [Thorsten Seyschab](https://todde.tv) (author)
 
 ## License
 
