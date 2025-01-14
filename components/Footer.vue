@@ -1,19 +1,14 @@
 <template>
-  <div class="myContainer grow flex flex-col md:flex-row justify-between items-center text-gray-500">
-    <div class="flex flex-row flex-wrap gap-x-5 gap-y-2">
-      <p>&copy; {{ new Date().getFullYear() }} The authors</p>
+  <div class="myContainer grow flex flex-col md:flex-row justify-between gap-y-3 items-center text-gray-500">
+    <p>&copy; 2025 The authors</p>
 
+    <div class="flex flex-row gap-5">
       <p>
-        This page is open source:
         <a
           class="underline transition-colors hover:text-black" target="_blank"
           href="https://github.com/fehnomenal/fehn.systems" rel="noopener noreferrer"
         >GitHub</a>
-        (external link)
       </p>
-    </div>
-
-    <div class="flex flex-row gap-5">
       <p>
         <NuxtLink class="underline transition-colors hover:text-black" to="/privacy">
           Privacy
