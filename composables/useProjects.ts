@@ -1,3 +1,4 @@
+import type { Component } from 'vue'
 import type { BadgeType } from '~/components/misc/Badge.vue'
 import DriveMotive from '~/components/project/DriveMotive.vue'
 import EasyData from '~/components/project/EasyData.vue'
@@ -11,7 +12,7 @@ export interface Project {
   imageUrl: string
   dateFormatted: string
   datetime: string
-  component: () => any
+  component: Component
 }
 
 export function useProjects() {
@@ -22,7 +23,7 @@ export function useProjects() {
       imageUrl: '/projects/easydata-1.png',
       dateFormatted: 'Sep 1, 2024',
       datetime: '2024-09-01',
-      component: () => EasyData,
+      component: markRaw(EasyData),
     },
     {
       title: 'zlig',
@@ -30,7 +31,7 @@ export function useProjects() {
       imageUrl: '/projects/zlig-1.png',
       dateFormatted: 'ongoing',
       datetime: '2020-03-16',
-      component: () => Zlig,
+      component: markRaw(Zlig),
     },
     {
       title: 'DRIVEMOTIVE',
@@ -38,7 +39,7 @@ export function useProjects() {
       imageUrl: '/projects/drivemotive-1.png',
       dateFormatted: 'Dec 31, 2024',
       datetime: '2024-12-31',
-      component: () => DriveMotive,
+      component: markRaw(DriveMotive),
     },
   ]
 
