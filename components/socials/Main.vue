@@ -1,5 +1,5 @@
 <template>
-  <div id="socials" class="myContainer flex-grow py-24 sm:py-32 flex flex-col">
+  <div id="socials" class="myContainer grow py-24 sm:py-32 flex flex-col">
     <div class="mx-auto max-w-2xl text-center">
       <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
         Socials
@@ -9,7 +9,7 @@
       </p>
     </div>
 
-    <div class="flex-grow flex flex-col justify-center">
+    <div class="grow flex flex-col justify-center">
       <div class="flex flex-col gap-7 mx-auto">
         <SocialsButton href="https://github.com/fehnomenal">
           <Icon name="mdi:github" class="text-xl" />

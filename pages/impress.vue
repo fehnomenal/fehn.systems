@@ -57,6 +57,8 @@ useHead({
 </template>
 
 <style scoped>
+@import "../assets/css/tailwind.css" reference;
+
 h1 {
   @apply font-bold text-3xl my-7;
 }

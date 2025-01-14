@@ -1,6 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+    --color-primary-50:  #f9f5ff;
+    --color-primary-100: #f1e7ff;
+    --color-primary-200: #e6d4ff;
+    --color-primary-300: #d2b2ff;
+    --color-primary-400: #ba88ff;
+    --color-primary-500: #9a51fb;
+    --color-primary-600: #842eef;
+    --color-primary-700: #701ed2;
+    --color-primary-800: #601eab;
+    --color-primary-900: #4f198a;
+    --color-primary-950: #330566;
+}
 
 @layer base {
     .myContainer {
