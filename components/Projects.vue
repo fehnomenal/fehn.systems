@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Component } from 'vue'
+import { _2xl, _lg, _md, _xl } from '#tailwind-config/theme/screens'
 import { ModalsContainer, useModal } from 'vue-final-modal'
 import ProjectModal from '~/components/ProjectModal.vue'
 
@@ -35,7 +36,20 @@ function openModal(component: Component) {
                  rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80
                  transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-200"
       >
-        <img :src="project.imageUrl" alt="" class="absolute inset-0 -z-10 size-full object-cover">
+        <div class="absolute inset-0 -z-10">
+          <MiscResponsiveImage
+            :src="project.imageUrl" legacy-format="jpg" :alt="`Project hero ${project.title}`"
+            img-class="size-full object-cover" :sizes="{
+              '': 515,
+              [`(width < 400px)`]: 375,
+              [`(width < ${_md})`]: 620,
+              [`(width < ${_lg})`]: 740,
+              [`(width < ${_xl})`]: 325,
+              [`(width < ${_2xl})`]: 420,
+            }"
+          />
+        </div>
+
         <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40" />
         <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
 
