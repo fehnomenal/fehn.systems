@@ -10,17 +10,17 @@
     </div>
 
     <div class="grow flex flex-col justify-center">
-      <div class="flex flex-col gap-7 mx-auto">
-        <SocialsButton href="https://github.com/fehnomenal">
-          <Icon name="mdi:github" class="text-xl" />
+      <div class="flex flex-row gap-7 mx-auto">
+        <SocialsButton to="https://github.com/fehnomenal">
+          <Icon name="mdi:github" class="text-5xl" />
         </SocialsButton>
 
-        <SocialsButton href="https://www.xing.com/profile/Andreas_Fehn4">
-          <Icon name="mdi:xing" class="text-xl" />
+        <SocialsButton to="https://www.xing.com/profile/Andreas_Fehn4">
+          <Icon name="mdi:xing" class="text-5xl" />
         </SocialsButton>
 
-        <SocialsButton href="mailto:business@fehn.systems" label="business@fehn.systems">
-          <Icon name="mdi:at" class="text-xl" />
+        <SocialsButton to="mailto:business@fehn.systems">
+          <Icon name="mdi:at" class="text-5xl" />
         </SocialsButton>
       </div>
     </div>
