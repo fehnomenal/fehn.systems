@@ -322,10 +322,14 @@ useHead({
     gesetzliche Aufbewahrungsfristen &ndash; bleiben unber&uuml;hrt.
   </p>
   <p>
-    Quelle: <a
-      href="https://www.e-recht24.de" class="underline transition-colors hover:text-black" target="_blank"
+    Quelle: <NuxtLink
+      to="https://www.e-recht24.de"
+      class="underline transition-colors hover:text-black"
+      target="_blank"
       rel="noopener noreferrer"
-    >https://www.e-recht24.de</a>
+    >
+      https://www.e-recht24.de
+    </NuxtLink>
   </p>
 </template>
 
