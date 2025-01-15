@@ -89,7 +89,7 @@ useHead({
     Weisungen in Bezug auf diese Daten befolgen.
   </p>
   <p>Wir setzen folgende(n) Hoster ein:</p>
-  <p>GitHub</p>
+  <p>GitHub Pages</p>
   <h2>3. Allgemeine Hinweise und Pflicht&shy;informationen</h2>
   <h3>Datenschutz</h3>
   <p>
@@ -119,10 +119,10 @@ useHead({
     Zaunk&ouml;nigstr. 36<br>
     85521 Ottobrunn
   </p>
-  <p>
+  <!-- <p>
     Telefon: &#91;Telefonnummer der verantwortlichen Stelle&#93;<br>
     E-Mail: &#91;E-Mail-Adresse der verantwortlichen Stelle&#93;
-  </p>
+  </p> -->
   <p>
     Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die allein oder gemeinsam mit anderen
     &uuml;ber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.&nbsp;B. Namen, E-Mail-
@@ -156,7 +156,7 @@ useHead({
     jeweils im Einzelfall einschl&auml;gigen Rechtsgrundlagen wird in den folgenden Abs&auml;tzen dieser
     Datenschutzerkl&auml;rung informiert.
   </p>
-  <h3>Empf�nger von personenbezogenen Daten</h3>
+  <h3>Empf&auml;nger von personenbezogenen Daten</h3>
   <p>
     Im Rahmen unserer Gesch&auml;ftst&auml;tigkeit
     arbeiten wir mit verschiedenen externen Stellen zusammen. Dabei ist teilweise auch eine &Uuml;bermittlung von
