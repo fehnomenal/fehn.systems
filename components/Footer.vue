@@ -8,17 +8,17 @@
           class="underline transition-colors hover:text-black" target="_blank"
           to="https://github.com/fehnomenal/fehn.systems" rel="noopener noreferrer"
         >
-          GitHub
+          <span>GitHub</span>
         </NuxtLink>
       </p>
       <p>
         <NuxtLink class="underline transition-colors hover:text-black" to="/privacy">
-          Privacy
+          <span>Privacy</span>
         </NuxtLink>
       </p>
       <p>
         <NuxtLink class="underline transition-colors hover:text-black" to="/impress">
-          Impress
+          <span>Impress</span>
         </NuxtLink>
       </p>
     </div>

@@ -16,7 +16,7 @@
         target="_blank"
         rel="noopener noreferrer"
       >
-        https://zlig.net
+        <span>https://zlig.net</span>
       </NuxtLink>.
     </p>
   </div>

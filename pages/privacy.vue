@@ -328,7 +328,7 @@ useHead({
       target="_blank"
       rel="noopener noreferrer"
     >
-      https://www.e-recht24.de
+      <span>https://www.e-recht24.de</span>
     </NuxtLink>
   </p>
 </template>

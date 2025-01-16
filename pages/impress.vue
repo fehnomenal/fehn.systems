@@ -39,7 +39,7 @@ useHead({
       to="https://ec.europa.eu/consumers/odr/" class="underline transition-colors hover:text-black" target="_blank"
       rel="noopener noreferrer"
     >
-      https://ec.europa.eu/consumers/odr/
+      <span>https://ec.europa.eu/consumers/odr/</span>
     </NuxtLink>.<br> Unsere E-Mail-Adresse finden Sie oben im
     Impressum.
   </p>
@@ -57,7 +57,7 @@ useHead({
       target="_blank"
       rel="noopener noreferrer"
     >
-      eRecht24
+      <span>eRecht24</span>
     </NuxtLink>
   </p>
 </template>
