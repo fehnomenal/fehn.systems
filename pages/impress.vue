@@ -52,7 +52,7 @@ useHead({
 
   <p>
     Quelle: <NuxtLink
-      href="https://www.e-recht24.de"
+      to="https://www.e-recht24.de"
       class="underline transition-colors hover:text-black"
       target="_blank"
       rel="noopener noreferrer"
