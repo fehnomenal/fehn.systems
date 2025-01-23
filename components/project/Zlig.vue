@@ -10,10 +10,14 @@
 
     <p>
       You can find the currently published version at
-      <a
-        href="https://zlig.net" class="underline transition-colors hover:text-black" target="_blank"
+      <NuxtLink
+        to="https://zlig.net"
+        class="underline transition-colors hover:text-black"
+        target="_blank"
         rel="noopener noreferrer"
-      >https://zlig.net</a>.
+      >
+        <span>https://zlig.net</span>
+      </NuxtLink>.
     </p>
   </div>
 </template>

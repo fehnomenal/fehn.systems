@@ -4,19 +4,21 @@
 
     <div class="flex flex-row gap-5">
       <p>
-        <a
+        <NuxtLink
           class="underline transition-colors hover:text-black" target="_blank"
-          href="https://github.com/fehnomenal/fehn.systems" rel="noopener noreferrer"
-        >GitHub</a>
+          to="https://github.com/fehnomenal/fehn.systems" rel="noopener noreferrer"
+        >
+          <span>GitHub</span>
+        </NuxtLink>
       </p>
       <p>
         <NuxtLink class="underline transition-colors hover:text-black" to="/privacy">
-          Privacy
+          <span>Privacy</span>
         </NuxtLink>
       </p>
       <p>
         <NuxtLink class="underline transition-colors hover:text-black" to="/impress">
-          Impress
+          <span>Impress</span>
         </NuxtLink>
       </p>
     </div>

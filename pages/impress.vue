@@ -35,10 +35,12 @@ useHead({
 
   <h2>EU-Streitschlichtung</h2>
   <p>
-    Die Europ&auml;ische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a
-      href="https://ec.europa.eu/consumers/odr/" class="underline transition-colors hover:text-black" target="_blank"
+    Die Europ&auml;ische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <NuxtLink
+      to="https://ec.europa.eu/consumers/odr/" class="underline transition-colors hover:text-black" target="_blank"
       rel="noopener noreferrer"
-    >https://ec.europa.eu/consumers/odr/</a>.<br> Unsere E-Mail-Adresse finden Sie oben im
+    >
+      <span>https://ec.europa.eu/consumers/odr/</span>
+    </NuxtLink>.<br> Unsere E-Mail-Adresse finden Sie oben im
     Impressum.
   </p>
 
@@ -49,10 +51,14 @@ useHead({
   </p>
 
   <p>
-    Quelle: <a
-      href="https://www.e-recht24.de" class="underline transition-colors hover:text-black" target="_blank"
+    Quelle: <NuxtLink
+      to="https://www.e-recht24.de"
+      class="underline transition-colors hover:text-black"
+      target="_blank"
       rel="noopener noreferrer"
-    >eRecht24</a>
+    >
+      <span>eRecht24</span>
+    </NuxtLink>
   </p>
 </template>
 
